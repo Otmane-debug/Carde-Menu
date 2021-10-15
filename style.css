@@ -1,0 +1,59 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+h2{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 5%;
+
+}
+
+.c1{
+    margin-left: 10%;
+    float: left;
+    background-color: coral;
+    color: wheat;
+}
+
+
+table{
+    padding: 50px;
+}
+
+
+
+ td{
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+.end{
+    float: right;
+    margin-right: 8%;
+    margin-bottom: 8%;
+}
+
+ .c2{
+    width: 30%;
+    margin-right: 10%;
+    float: right;
+    background-color: coral;
+    color: wheat;
+    
+
+}
+
+.order{
+    padding-top: 5x;
+    padding-left: 50px;
+    
+}
