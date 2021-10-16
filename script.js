@@ -1,3 +1,5 @@
+
+
 let x;
 let y ;
 
@@ -18,24 +20,25 @@ function f1(x){
     div.className = "ord";
     div.innerHTML = x;
     order.append(div);
-
+    
 }
 
 
 
 let res = document.querySelector("#end");
 
-let data = document.querySelector(".order").childNodes;
+let data = document.querySelector(".order");
 
-console.log(data);
 
 function f2(y) { 
     y.remove();
 }
 
-res.onclick = () => { 
-    data.forEach( dt => {
-        f2(dt);    
-    }
-)}
 
+function rmv(pn) {
+    while (pn.firstChild) {
+        pn.removeChild(pn.firstChild);
+    }
+}
+
+res.onclick = () => rmv(data);
