@@ -1,10 +1,6 @@
-
-
 let x;
-let y ;
 
 let btn = document.querySelectorAll("#btn");
-
 
 btn.forEach( data => {
     data.onclick = () => { 
@@ -24,16 +20,9 @@ function f1(x){
 }
 
 
-
 let res = document.querySelector("#end");
 
 let data = document.querySelector(".order");
-
-
-function f2(y) { 
-    y.remove();
-}
-
 
 function rmv(pn) {
     while (pn.firstChild) {
